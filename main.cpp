@@ -3,12 +3,12 @@
 #include <ctime>
 #include "queue.h"
 
-using namespace std;   // ✅ namespace used here
+using namespace std;   
 
 int main(int argc, char* argv[]) {
 
     if (argc != 2) {
-        cout << "Usage: program <number_of_users>\n";
+        cout << "Usage: program number_of_users\n";
         return 1;
     }
 
